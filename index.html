@@ -3,20 +3,26 @@
 
 <html lang="en_us">
 
-	<head>
-		<title>kai web</title>
-	</head>
-	
+	<title>
+		my title
+	</title>
+
 	<body>
+
+		<h1>This is h1</h1>
+
+		<p id="p1">This is p</p>
+
+		<button onclick=myFunction()>button</button>
+
+		<script>
 		
-		<h1>
-			hello, world!
-		</h1>
-		
-		<p>
-			ya, hello world
-		</p>
-		
+			function myFunction() {
+				document.getElementById("p1").innerHTML = "click";
+			}
+			
+		</script>
+
 	</body>
 	
 </html>
